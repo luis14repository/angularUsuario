@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 
-import {UserB} from './common/model/userB';
+import {UserB} from './common/model/userBuscar';
 import {CrearUser} from './common/model/crearUser';
 import {Phone} from './common/model/phone';
 

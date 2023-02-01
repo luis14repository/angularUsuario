@@ -1,7 +1,12 @@
 import { Phone } from "./phone" 
 
 export interface CrearUser {
-    name: string;
-    email: string;
-    password: string;
+    id?: number;
+    email? : string;
+    name? : string;
+    password? : string;
+    state?  : string;
+    phone? : Phone[];
+
+
 }

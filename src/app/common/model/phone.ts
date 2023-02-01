@@ -1,6 +1,6 @@
 export interface Phone{
     
-    numberPhone : string;    
+    numberPhone : number;    
     codCiudad   : string;
     codPais     : string;
 }
