@@ -37,7 +37,7 @@ createUser() {
   this.user.phone = [
     this.phone
   ];
-  console.log(this.user);
+  console.log(this.user);  
   this.service.createUser(this.user).subscribe({   
   next: (res) => { 
     console.log(res)},

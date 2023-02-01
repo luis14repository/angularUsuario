@@ -3,7 +3,7 @@ import {Phone} from './phone';
 
  export interface UserB{
 
-    id?: number;
+    id?: string;
     email? : string;
     name? : string;
     password? : string;
